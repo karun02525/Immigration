@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/isCheck_hide"
+    android:background="#f5f5f5">
+
+    <TextView
+        android:id="@+id/txt_questation_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="Question 1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/sp_questions"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt_questation_num"
+        android:background="@drawable/sppiner_background"
+        android:gravity="center_vertical"
+        android:entries="@array/answers_sppiner"
+        android:elevation="10dp"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sp_questions"
+        android:layout_below="@+id/txt_questation_num"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_drop_down"
+        />
+
+
+</RelativeLayout>

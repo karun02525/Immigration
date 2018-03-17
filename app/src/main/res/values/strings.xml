@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Immigration</string>
+    <string name="app_names">Immigration</string>
+    <string name="app_namess">Karun Kumar</string>
+
+    <string name="txt_result">Results</string>
+    <string name="txt_subscription">Subscription</string>
+    <string name="txt_generate_report">Generate Report</string>
+    <string name="txt_stattistics_report">Statistic Reports</string>
+    <string name="txt_pdf_list">PDF List</string>
+    <string name="txt_notification">Notification</string>
+    <string name="txt_change_pass">Change Password</string>
+    <string name="txt_faq">FAQ\'s</string>
+    <string name="txt_privacy">Privacy Policy</string>
+    <string name="txt_support">Support</string>
+    <string name="txt_logout">LogOut</string>
+
+
+    <!--Side menu content-->
+    <string name="menu_option_1">Express Entry Point Calculator</string>
+    <string name="menu_option_2">BCPNP Point Calculator</string>
+    <string name="menu_option_3">Manitoba Point Calculator</string>
+    <string name="menu_option_4">Alberta Point Calculator</string>
+    <string name="menu_option_5">PEI Point Calculator</string>
+    <string name="menu_option_6">Saskatchewan Point Calculator</string>
+
+
+    Result_mosult pdf content-->
+    <string name="pdf_option_1">Noc code simplified</string>
+    <string name="pdf_option_2">How to prepare your documents</string>
+    <string name="pdf_option_3">How to improve your Scores</string>
+    <string name="pdf_option_4">What are other options</string>
+    <string name="pdf_option_5">Top 100 Jobs in canada</string>
+    <string name="pdf_option_6">Tips &amp; Tricks</string>
+
+    <string name="pdf_option_des">Please subscribe the subscription plan to proceed further.</string>
+
+
+    <!--Side menu send Intent content-->
+    <string name="send_intent_1">Express Entry Point</string>
+    <string name="send_intent_2">BCPNP Point</string>
+    <string name="send_intent_3">Manitoba Point</string>
+    <string name="send_intent_4">Alberta Point</string>
+    <string name="send_intent_5">PEI Point</string>
+    <string name="send_intent_6">Saskatchewan Point</string>
+
+
+    <!--ask Close app-->
+    <string name="txt_close_app">Are you sure you want to LogOut?</string>
+    <string name="txt_yes">yes</string>
+    <string name="txt_No">No</string>
+
+
+    <string name="create_login">Create an account? &#032;<b>Sign Up</b></string>
+    <string name="signup_">Already a Member? &#032;<b>Login</b></string>
+    <string name="term_conditionss"><![CDATA[<font color=#FFFFFF>I Accept </font> <font color=#0b3459><u>Terms & Conditions</u></font><font color=#FFFFFF> of the Immigration </font>]]></string>
+
+    <string name="txt_forgot_pass">Please enter your registered mobile mumber</string>
+    <string name="txt_generate_reports">Please enter your email id for generate report</string>
+
+    <string name="txt_otp">Please enter OTP received on </string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="otp">OTP</string>
+    <string name="enter_otp">XXXX</string>
+    <string name="btn_submit">Submit</string>
+
+
+    <string name="reset_password">Reset Password</string>
+    <string name="txt_reset_pass">Please enter a new password</string>
+    <string name="change_password">Change Password</string>
+
+  <string-array name="answers_sppiner">
+      <item>Select…</item>
+  </string-array>
+
+
+    <!--Siginup or EditProfile-->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_email_id">Email ID</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+
+    <string name="txt_description">Central Board of Excise and Customs (CBEC) is a part of the Department of Revenue under the Ministry of Finance, Government of India.</string>
+    <string name="txt_description1">http://www.tutorialspoint.com/java/java_tutorial.pdf</string>
+    <string name="txt_description2">http://enos.itcollege.ee/~jpoial/allalaadimised/lugemist/Android-Programming-Cookbook.pdf</string>
+    <string name="txt_description3">https://www.cs.cmu.edu/~bam/uicourse/830spring09/BFeiginMobileApplicationDevelopment.pdf</string>
+    <string name="txt_description4">https://commonsware.com/Android/Android-1_0-CC.docx</string>
+    <string name="txt_description5">http://www.kmvportal.co.in/Course/MAD/Android%20Book.docx</string>
+    <string name="txt_description6">http://cdn.wonderfulengineering.com/wp–content/uploads/2016/02/Rose–Wallpaper-16-610x343.jpg</string>
+    <string name="txt_description7">https://www.onlinecharttool.com/pics/logo.png</string>
+    <string name="txt_title">Package Activation</string>
+
+    <!---->
+
+    <string name="txt_subscription_1">You\'ve been qualified for Immigration with canada</string>
+    <string name="txt_subscription_sorray">You\'ve been Disqualified for Immigration with canada</string>
+
+    <string name="txt_subscription_2">You have earned</string>
+    <string name="txt_subscription_3">Subscribe to know  the Immigration Process</string>
+    <string name="txt_subscribe">Subscribe</string>
+    <string name="txt_subscribe_1">If you have score points more than or equal to margin criteria in the test, please click below to get the further knowledge of the process.
+Qualified Subscription</string>
+    <string name="txt_subscribe_2">If you have scored less than margin critera in the test, please click below to get the full knowledge for the qualification of the test.
+Un-qualified Subscription</string>
+    <string name="skip">Skip</string>
+    <string name="support_ask_question">Ask your Question here…</string>
+
+
+    <!--FAQ-->
+
+    <string name="faq_">Question 1- What is Canadian Express Entry program and how does it work?
+Answer:
+Express Entry is a newly introduced method of managing applications for the existing immigration programs, which are The Federal Skilled Workers Program (FSWP), The Federal Skilled Trade Program (FSTP) and The Canadian Experience Class Program (CEC).
+
+
+Question 2- What is Canadian Express Entry program and how does it work?
+Answer:
+Express Entry is a newly introduced method of managing applications for the existing immigration programs, which are The Federal Skilled Workers Program (FSWP), The Federal Skilled Trade Program (FSTP) and The Canadian Experience Class Program (CEC).
+
+
+Question 3- Which immigration programs will be covered in the Express Entry Schemes?
+Answer:
+The three programs that will be covered under this scheme will be:
+
+The Federal Skilled Worker Program;
+The Federal Skilled Trades Program;
+The Canadian Experience Class Program.
+The Canadian Provincial Program</string>
+
+    <string name="Q1">Question 1- What is Canadian Express Entry program and how does it work?</string>
+    <string name="ans1">Answer:\n Express Entry is a newly introduced method of managing applications for the existing immigration programs, which are The Federal Skilled Workers Program (FSWP), The Federal Skilled Trade Program (FSTP) and The Canadian Experience Class Program (CEC).</string>
+    <string name="save">Save</string>
+
+    <string name="term_condition">About this Website
+There are disclaimers throughout our website stating that Iimmigration is an independent entity. \n \n
+Certifications Immigration has passed rigorous background checks that ensure the validity and the overall legitimacy of our business.\n \n
+Intellectual property rights Except where otherwise stated, Immigration is the copyright holder of all content, layout, design, data, graphics, trademarks and logos under the isaglobal.in domain.  \n
+The content is protected by India and international copyright laws. Immigration Global will do our outmost to protect our rights, employees, customers, members and intellectual property. We will not hesitate to take legal action if necessary. \n \n
+Limitation of Liability Immigration shall not be liable for any special or consequential damages that resultMo from the use of, or the inability to use, the materials on this website or the performance of the products, even if Immigration has been advised of the possibility of such damages. \n \n
+Applicable law may not allow the limitation of exclusion of liability or incidental or consequential damages, so the above limitation or exclusion may not apply to you.\n \n
+Legal Form and Choice of Law:By using our website, purchasing a products or service, you have entered into a legal contract with Immigration Overseas Careers. You agree that the prevailing party in a civil lawsuit may be awarded reasonable attorney's fees.</string>
+
+
+    <string name="term_conditions">Terms &amp; Conditions</string>
+    <string name="term_privecy_police">Immigration recognize the importance of preserving complete confidentiality. Any personal information and/or business proprietary material that you might disclose to us is treated with strict confidence.\n \n
+        All information given to immigration by its prospective clients, is kept strictly confidential and on a need-to-know basis and is protected. We will only record your personal details if you send us a message.
+        You can be assured that your personal information is used only by our trained staff for the purpose of the work you have engaged our office to do. \n \n
+        We will not use your e-mail address for any other purpose, and will not disclose it, without your consent. Your information is never used for marketing or solicitation and is never sold or given to anyone for these purposes.\n \n
+Immigration never supplies any other person or organization with your information except those government agencies involved in your immigration process (e.g. Australian Immigration Authorities, DIAC or the Homeoffice, UK, etc.).
+        \n \n You can register with our website if you would like to receive our newsletter, catalog or updates on our new products and services. Information you submit on our website will not be used for this purpose unless you have given us your specific consent to do so.</string>
+    <string name="question_validation">Please choose at least 1 question!!</string>
+
+
+    <!--Login Validation-->
+    <string name="login_validation_1">Please enter mobile number.</string>
+    <string name="login_validation_2">Please enter valid mobile number.</string>
+    <string name="login_validation_valid">The password must be at least 8 characters long.</string>
+    <string name="login_validation_email">Please enter Email Id.</string>
+    <string name="login_validation_3">Please enter password.</string>
+    <string name="login_validation_reset">Please enter new password.</string>
+    <string name="otp_validation_1">Please enter OTP.</string>
+    <string name="otp_validation_2">Please enter valid OTP.</string>
+    <string name="permission_alert_dialog_title">sms_permisstion_1</string>
+    <string name="permission_dialog_message">sms_permisstion_2</string>
+    <string name="action_ok">OK</string>
+
+
+    <!--SignUp validation-->
+    <string name="signup_validation_2">Please enter valid email id.</string>
+    <string name="signup_validation_4">Please enter confirm password.</string>
+    <string name="signup_validation_5">Confirm password does not match.</string>
+    <string name="signup_validation_6">Please accept the terms and conditions.</string>
+
+    <!--EditProfile validation-->
+    <string name="edit_profile_validation_1">Please enter first name.</string>
+    <string name="edit_profile_validation_2">Please enter last name.</string>
+    <string name="edit_profile_validation_3">Please enter mobile number.</string>
+    <string name="edit_profile_validation_4">Please enter valid email id.</string>
+    <string name="edit_profile_validation_5">Please enter current password.</string>
+
+    <string name="invitation_yes">Yes</string>
+    <string name="invitation_del_no">No</string>
+
+    <string name="action_sms">Please enter valid OTP.</string>
+    <string name="result_3">Candidates that are invited to apply for \n PR Score Above</string>
+    <string name="error_status_1">Please try again!!</string>
+    <string name="no_internet">Sorry!No internet available</string>
+    <string name="press_back">Press once again to exit!</string>
+
+
+</resources>

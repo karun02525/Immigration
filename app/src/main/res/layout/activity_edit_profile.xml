@@ -1,0 +1,174 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/all_match_parent_style"
+    android:background="@drawable/ic_profile_background">
+
+    <RelativeLayout
+        style="@style/alls_match_parent_style">
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/edit_btn_click_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/txt_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/edit_profile"
+                android:textColor="@color/txt_white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@drawable/ic_profile_background"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl_profile_image_container"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+
+
+                <com.immigration.utils.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="120dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="120dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="@color/txt_white"/>
+
+
+
+                <ImageView
+                    android:id="@+id/iv_camera"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignBottom="@+id/profile_image"
+                    android:layout_alignEnd="@+id/profile_image"
+                    android:layout_marginBottom="13dp"
+                    android:src="@drawable/camera" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_profile_first"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/user"
+                    android:hint="@string/first_name"
+                    android:inputType="text"
+                    style="@style/textView_edit_style" />
+
+                <EditText
+                    android:id="@+id/et_profile_last"
+                    android:drawableLeft="@drawable/user"
+                    android:hint="@string/last_name"
+                    android:inputType="text"
+                    style="@style/textView_edit_style" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_visable_mob"
+                    style="@style/textView_edit_style"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:drawableLeft="@drawable/phone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/phone" />
+
+
+
+                    <TextView
+                        android:id="@+id/tv_country_code"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="0.3"
+                        android:text="+1"
+                        android:textSize="12sp"
+                        android:textColor="@color/txt_black"
+                        />
+
+                    <View
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.01"
+                        android:layout_height="match_parent"
+                        android:background="#8b8b8b"/>
+
+
+                    <EditText
+                        android:drawableLeft="@drawable/dashed_vertical_line"
+                        android:id="@+id/et_profile_mobile"
+                        android:background="@drawable/rounded_edittext_edit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="2"
+                        android:hint="@string/mobile_number"
+                        android:inputType="number"
+                        android:textColor="@color/txt_black"
+                        android:textColorHint="@color/txt_hint_gray"
+                        android:maxLength="10"
+                        android:textSize="12sp"
+                        android:paddingLeft="0dp" />
+
+                </LinearLayout>
+
+
+
+                <EditText
+                    android:id="@+id/et_profile_email"
+                    android:drawableLeft="@drawable/email"
+                    android:hint="@string/enter_email_id"
+                    android:inputType="textEmailAddress"
+                    style="@style/textView_edit_style" />
+
+                <Button
+                    android:id="@+id/edit_btn_edit"
+                    android:text="@string/btn_submit"
+                    style="@style/button_custom_style" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
